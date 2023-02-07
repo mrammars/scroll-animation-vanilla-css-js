@@ -1,4 +1,10 @@
 @import url('https://font.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+@media
+ (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
 
 body {
     background-color : #131316;
@@ -12,7 +18,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 120vh;
 }
 
 .hidden {
